@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
-      <!-- Create all the shapes for your game board here! -->
-
-    </svg>
-
-    <!-- This line of code points to your JavaScript file. No need to touch it. -->
-    <script src="tic-tac-toe.js"></script>
+  <svg id="game-board" width="80%" viewBox="0 0 300 300">
+  <rect x="0" y="0" width="90" height="90" fill="white" onclick="topLeft()"/>
+  <rect x="" y="100" width="90" height="90" fill="white"/>
+  <rect x="" y="200" width="90" height="90" fill="white"/>
+  <rect x="100" y="200" width="90" height="90" fill="white"/>
+  <rect x="200" y="200" width="90" height="90" fill="white"/>
+  <rect x="200" y="100" width="90" height="90" fill="white"/>
+  <rect x="200" y="0" width="90" height="90" fill="white"/>
+  <rect x="100" y="100" width="90" height="90" fill="white"/>
+  <rect x="100" y="0" width="90" height="90" fill="white"/>
+  </svg>
+  <script src="tic-tac-toe.js"></script>
   </body>
-</html>
+  </html>
