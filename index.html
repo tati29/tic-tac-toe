@@ -4,17 +4,21 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body
+    <h3> </h3>
+    <h1> Tic-Tac-Toe </h1>
+    <h2> Player1 = Red </h2>
+    <h2>Player2 = Black</h2>
   <svg id="game-board" width="80%" viewBox="0 0 300 300">
   <rect x="0" y="0" width="90" height="90" fill="white" onclick="topLeft()"/>
-  <rect x="" y="100" width="90" height="90" fill="white"/>
-  <rect x="" y="200" width="90" height="90" fill="white"/>
-  <rect x="100" y="200" width="90" height="90" fill="white"/>
-  <rect x="200" y="200" width="90" height="90" fill="white"/>
-  <rect x="200" y="100" width="90" height="90" fill="white"/>
-  <rect x="200" y="0" width="90" height="90" fill="white"/>
-  <rect x="100" y="100" width="90" height="90" fill="white"/>
-  <rect x="100" y="0" width="90" height="90" fill="white"/>
+  <rect x="0" y="100" width="90" height="90" fill="white" onclick="middleLeft()"/>
+  <rect x="0" y="200" width="90" height="90" fill="white" onclick="bottomLeft()"/>
+  <rect x="100" y="200" width="90" height="90" fill="white" onclick="bottomMiddle()"/>
+  <rect x="200" y="200" width="90" height="90" fill="white" onclick="bottomRight()"/>
+  <rect x="200" y="100" width="90" height="90" fill="white" onclick="middleRight()"/>
+  <rect x="200" y="0" width="90" height="90" fill="white" onclick="topRight()"/>
+  <rect x="100" y="100" width="90" height="90" fill="white" onclick="middleMiddle()"/>
+  <rect x="100" y="0" width="90" height="90" fill="white" onclick="topMiddle()"/>
   </svg>
   <script src="tic-tac-toe.js"></script>
   </body>
